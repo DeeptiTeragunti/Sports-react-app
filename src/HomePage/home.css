@@ -1,0 +1,49 @@
+.home__image {
+  height: 700px;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -200px;
+}
+.tg-socialicons {
+  float: right;
+  list-style: none;
+  text-align: center;
+  line-height: 16px;
+}
+.tg-socialicons li {
+  float: left;
+  padding: 0 18px;
+  line-height: 16px;
+  position: relative;
+  list-style-type: none;
+}
+.tg-socialicons li + li:before {
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  content: "";
+  position: absolute;
+}
+.tg-socialicons li a {
+  color: #fff;
+  display: block;
+  line-height: 16px;
+}
+.tg-socialicons li a i {
+  font-size: 15px;
+  line-height: 16px;
+}
+.tg-footer {
+  background: #373542;
+}
+.tg-footerinfobox {
+  position: relative;
+}
+.tg-footerinfo {
+  width: 100%;
+  float: left;
+  z-index: 3;
+  padding: 80px 0;
+  position: relative;
+}
